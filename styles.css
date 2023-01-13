@@ -19,7 +19,12 @@ body {
     height: 100%;
     flex-direction: column;
 }
-
+#page_body{
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    justify-content: space-between;
+}
 #top_header{
     display: flex;
     background-color: green;
@@ -31,6 +36,18 @@ body {
 #bottom_footer{
     display: flex;
     background-color: red;
+}
+.left_side{
+    display: flex;
+    justify-content: left;
+    background-color: darkcyan;
+    width: 50%;
+}
+.right_side{
+    display: flex;
+    justify-content: right;
+    background-color: chocolate;
+    width: 50%;
 }
 
 
